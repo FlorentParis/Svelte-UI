@@ -1,45 +1,64 @@
 <script>
-  import svelteLogo from './assets/svelte.svg'
-  import Counter from './lib/Counter.svelte'
+import { Router, Route } from "svelte-routing";
+import Navbar from "./commons/Navbar.svelte";
+import PageDocumentation from "./pages/PageDocumentation/index.svelte";
+import PageComponents from "./pages/PageComponents/index.svelte";
+import Homepage from "./pages/Homepage.svelte";
+import Buttons from "./pages/PageComponents/components/Buttons.svelte";
+import Badges from "./pages/PageComponents/components/Badges.svelte";
+import Toggle from "./pages/PageComponents/components/Toggle.svelte";
+import SelectMenus from "./pages/PageComponents/components/SelectMenus.svelte";
+import Headers from "./pages/PageComponents/components/Headers.svelte";
+import Sign from "./pages/PageComponents/components/Sign.svelte";
+import Tables from "./pages/PageComponents/components/Tables.svelte";
+import Notifications from "./pages/PageComponents/components/Notifications.svelte";
+import Modals from "./pages/PageComponents/components/Modals.svelte";
+import Pagination from "./pages/PageComponents/components/Pagination.svelte";
+
+export let url = "";
+
 </script>
 
-<main>
-  <div>
-    <a href="https://vitejs.dev" target="_blank"> 
-      <img src="/vite.svg" class="logo" alt="Vite Logo" />
-    </a>
-    <a href="https://svelte.dev" target="_blank"> 
-      <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
-    </a>
-  </div>
-  <h1>Vite + Svelte</h1>
+<div id="page-container">
+  <Navbar />
+  <Router url={url}>
+    <Route path="/" component={Homepage} />
+    <Route path="documentation" component={PageDocumentation} />
+    <Route path="components" component={PageComponents} />
 
-  <div class="card">
-    <Counter />
-  </div>
-
-  <p>
-    Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank">SvelteKit</a>, the official Svelte app framework powered by Vite!
-  </p>
-
-  <p class="read-the-docs">
-    Click on the Vite and Svelte logos to learn more
-  </p>
-</main>
+    <Route path="component-buttons" component={Buttons} />
+    <Route path="component-badges" component={Badges} />
+    <Route path="component-toggle" component={Toggle} />
+    <Route path="component-select-menus" component={SelectMenus} />
+    <Route path="component-headers" component={Headers} />
+    <Route path="component-sign" component={Sign} />
+    <Route path="component-tables" component={Tables} />
+    <Route path="component-notifications" component={Notifications} />
+    <Route path="component-modals" component={Modals} />
+    <Route path="component-pagination" component={Pagination} />
+  </Router>
+</div>
 
 <style>
-  .logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
+  :global(body) {
+    margin: 0;
+    font-family: sans-serif;
   }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
+
+  :global(#app) {
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
-  .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00aa);
+
+  :global(a) {
+    text-decoration: none;
+    color: #000;
   }
-  .read-the-docs {
-    color: #888;
+
+  #page-container {
+    max-width: 1920px;
+    width: 100%;
+    padding: 20px 0 80px 0;
   }
 </style>
