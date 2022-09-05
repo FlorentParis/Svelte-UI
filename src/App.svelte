@@ -1,6 +1,6 @@
 <script>
 import { Router, Route } from "svelte-routing";
-import Navbar from "./commons/Navbar.svelte";
+import Navbar from "./components/Navbar.svelte";
 import PageDocumentation from "./pages/PageDocumentation/index.svelte";
 import PageComponents from "./pages/PageComponents/index.svelte";
 import Homepage from "./pages/Homepage.svelte";
