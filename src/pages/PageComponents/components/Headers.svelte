@@ -11,7 +11,7 @@
     <div id="preview">
       <nav style="background-color: {bgc}; height: {navHeight};">
         <div>
-            <img src="https://monstickerdeco.fr/1197-large_default/sticker-smiley-chat-sourire.jpg" alt="Logo" style="height: {imgHeight};">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Android_O_Preview_Logo.png" alt="Logo" style="height: {imgHeight};">
             <ul style="font-size: {fontSize}; font-family: {fontFamily};">
                 <li>
                     <a href="Page1" style="color: {textColor};">Lien 1</a>
@@ -29,19 +29,69 @@
     <div id="code-sources">
       <h2>Html</h2>
       <p>
-        &lt;button style="border: none; background-color: {bgc}; color: {textColor};
-        font-size: ; border-radius: ; padding: 4px 15px"&gt; 
-        &lt;/button&gt;
+        &lt;nav style="display: flex; justify-content: center; align-items: center; background-color: {bgc}; height: {navHeight}; width: 100%"&gt; <br />
+        &#160; &lt;div style="display: flex; align-items: center; justify-content: space-between; height: 100%; width: 100%; max-width: 1920px; padding: 0 40px;"&gt; <br />
+        &#160; &#160; &lt;img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Android_O_Preview_Logo.png"; alt="Logo"; style="height: {imgHeight}"&gt; <br />
+        &#160; &#160; &lt;ul style="display: flex; list-style: none; gap: 40px; font-size: {fontSize}; font-family: {fontFamily}"&gt; <br />
+        &#160; &#160; &#160; &lt;li&gt; &lt;a href="Page1" style="color: {textColor}"&gt;Lien 1&lt;/a&gt; &lt;/li&gt; <br />
+        &#160; &#160; &#160; &lt;li&gt; &lt;a href="Page2" style="color: {textColor}"&gt;Lien 2&lt;/a&gt; &lt;/li&gt; <br />
+        &#160; &#160; &#160; &lt;li&gt; &lt;a href="Page3" style="color: {textColor}"&gt;Lien 3&lt;/a&gt; &lt;/li&gt; <br />
+        &#160; &#160; &lt;/ul&gt; <br />
+        &#160; &lt;/div&gt; <br />
+        &lt;/nav&gt;
       </p>
       <h2>Svelte</h2>
       <p>
-        &lt;button&gt;  &lt;/button&gt; <br /><br />
-        &lt;style&gt; <br /> button &#123; <br />&#160; border: none; <br />&#160;
-        background-color: {bgc}; <br />&#160; color: {textColor}; <br />&#160;
-        font-size: ;
-        <br />&#160; border-radius: ; <br />&#160; padding: 4px 15px
+        &lt;nav&gt; <br />
+        &#160; &lt;div&gt; <br />
+        &#160; &#160; &lt;img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Android_O_Preview_Logo.png" alt="Logo"&gt; <br />
+        &#160; &#160; &lt;ul&gt; <br />
+        &#160; &#160; &#160; &lt;li&gt; &lt;a href="Page1"&gt;Lien 1&lt;/a&gt; &lt;/li&gt; <br />
+        &#160; &#160; &#160; &lt;li&gt; &lt;a href="Page2"&gt;Lien 2&lt;/a&gt; &lt;/li&gt; <br />
+        &#160; &#160; &#160; &lt;li&gt; &lt;a href="Page3"&gt;Lien 3&lt;/a&gt; &lt;/li&gt; <br />
+        &#160; &#160; &lt;ul&gt; <br />
+        &#160; &#160; &lt;img&gt; <br />
+        &#160; &lt;div&gt; <br />
+        &lt;nav&gt; <br />
         <br />
-        &#125;
+        &lt;style&gt; <br /> 
+        &#160; nav &#123; <br />
+        &#160; &#160; border: none; <br />
+        &#160; &#160; display: flex; <br />
+        &#160; &#160; justify-content: center; <br />
+        &#160; &#160; align-items: center; <br />
+        &#160; &#160; background-color: {bgc}; <br />
+        &#160; &#160; height: {navHeight}; <br />
+        &#160; &#160; width: 100%; <br />
+        &#160; &#125; <br />
+        <br />
+        &#160; nav > div &#123; <br />
+        &#160; &#160; display: flex; <br />
+        &#160; &#160; justify-content: space-between; <br />
+        &#160; &#160; align-items: center; <br />
+        &#160; &#160; height: 100%; <br />
+        &#160; &#160; width: 100%; <br />
+        &#160; &#160; max-width: 1920px; <br />
+        &#160; &#160; padding: 0 40px; <br />
+        &#160; &#125; <br />
+        <br />
+        &#160; nav img &#123; <br />
+        &#160; &#160; height: {imgHeight}; <br />
+        &#160; &#125; <br />
+        <br />
+        &#160; nav ul &#123; <br />
+        &#160; &#160; display: flex; <br />
+        &#160; &#160; list-style: none; <br />
+        &#160; &#160; gap: 40px; <br />
+        &#160; &#160; font-size: {fontSize}; <br />
+        &#160; &#160; font-family: {fontFamily}; <br />
+        &#160; &#125; <br />
+        <br />
+        &#160; nav a &#123; <br />
+        &#160; &#160; color: {textColor}; <br />
+        &#160; &#125; <br />
+        <br />
+
         <br />&lt;/style&gt;
       </p>
     </div>
@@ -116,6 +166,8 @@
       border-radius: 5px;
       min-height: 300px;
       padding: 0 20px;
+      max-height: 500px;
+      overflow-y: scroll;
     }
   
     #preferencies {
