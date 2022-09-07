@@ -4,8 +4,8 @@
 
 <div id="page-homepage">
     <section id="hero">
-        <h1>Svelte-UI: Unlimited Librairy Ressources</h1>
-        <img src="" alt="Logo svelte-UI" />
+        <h1>Svelte Squirrel: Unlimited Librairy Ressources</h1>
+        <img src="./Squirrel.png" alt="Logo svelte-UI" />
     </section>
 </div>
 
@@ -19,5 +19,9 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+    }
+
+    #hero > img {
+        height: 100%;
     }
 </style>

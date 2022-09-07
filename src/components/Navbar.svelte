@@ -9,7 +9,7 @@
 
 <nav>
     <Router url={url}>
-        <Link to="">Logo</Link>
+        <Link to="">Svelte Squirrel</Link>
     
         <div id="nav-links">
             <Link to="/components">Components</Link>
