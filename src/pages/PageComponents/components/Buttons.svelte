@@ -15,13 +15,7 @@
     </button>
   </div>
   <div id="code-sources">
-    <h2>Html</h2>
-    <p>
-      &lt;button style="border: none; background-color: {bgc}; color: {textColor};
-      font-size: {size}; border-radius: {borderRadius}; padding: 4px 15px"&gt; {textValue}
-      &lt;/button&gt;
-    </p>
-    <h2>Svelte</h2>
+    <h2>Code Sources</h2>
     <p>
       &lt;button&gt; {textValue} &lt;/button&gt; <br /><br />
       &lt;style&gt; <br /> button &#123; <br />&#160; border: none; <br />&#160;

@@ -21,28 +21,7 @@
       </div>
     </div>
     <div id="code-sources">
-      <h2>Html</h2>
-      <p>
-        &lt;div id="notif" style="width: 260px;
-        height: 80px;
-        display: flex;
-        align-items: center;
-        padding: 0 15px;
-        position: relative;
-        gap: 15px; border-radius: {radius}; box-shadow: {shadow}"&gt; <br />
-          &#160;&lt;img style="height: 70%;" src="http://cdn.onlinewebfonts.com/svg/img_29386.png" alt=""/&gt; <br/>
-          &#160;&lt;div style="display: flex;
-          flex-direction: column;
-          gap: 5px;"&gt; <br />
-            &#160; &lt;span style="font-weight: 700;
-            color: {titleColor};"&gt;{title}&lt;/span&gt; <br />
-            &#160; &lt;p style="margin: 0;
-            color: {textColor};"&gt;{text}&lt;/p&gt; <br />
-          &#160;&lt;/div&gt; <br />
-          &#160; &lt;span id="cross"&gt;X&lt;/span&gt; <br />
-        &lt;/div&gt;
-      </p>
-      <h2>Svelte</h2>
+      <h2>Code Sources</h2>
       <p>
         &lt;div id="notif"&gt; <br />
           &#160;&lt;img src="http://cdn.onlinewebfonts.com/svg/img_29386.png" alt=""/&gt; <br/>

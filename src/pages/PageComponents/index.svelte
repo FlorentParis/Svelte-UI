@@ -13,7 +13,7 @@ import Card from "./Card.svelte";
     <Card title="Tables" url="component-tables" img="https://tailwindui.com/img/category-thumbnails/application-ui/tables.png" />
     <Card title="Notifications" url="component-notifications" img="https://tailwindui.com/img/category-thumbnails/application-ui/notifications.png" />
     <Card title="Modals" url="component-modals" img="https://tailwindui.com/img/category-thumbnails/application-ui/modals.png" />
-    <Card title="Pagination" url="component-pagination" img="https://tailwindui.com/img/category-thumbnails/application-ui/pagination.png" />
+    <Card title="Carroussel" url="component-pagination" img="https://tailwindcomponents.com/storage/754/conversions/temp12283-ogimage.jpg" />
 </div>
 
 <style>

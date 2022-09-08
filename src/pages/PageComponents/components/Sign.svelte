@@ -28,33 +28,7 @@
         </div>
     </div>
     <div id="code-sources">
-        <h2>Html</h2>
-        <p>
-            &lt;div id="modal" style="border-radius:{borderRadius};width:300px, border: 1px solid; padding:30px&gt;<br />&#160;
-            &lt;h2&gt; Sign in &lt;/h2&gt; <br />&#160;
-            &lt;form action=""&gt;<br />&#160; &#160;
-
-            &lt;div id="input-group" style="display:flex; flex-direction: column; margin-bottom:5px"&gt; <br />&#160; &#160; &#160;
-            &lt;label name="" style="margin-bottom:10px; height: 20px;" &gt; Email &lt;/label&gt;<br />&#160; &#160; &#160;
-            &lt;input type="email" placeholder="Enter Email" style="margin-bottom:10px; height: 20px;" /&gt;<br />&#160; &#160; &#160;
-            &lt;label name="" style="margin-bottom:10px; height: 20px;" &gt; Password &lt;/label&gt;<br />&#160; &#160; &#160;
-            &lt;input type="password" placeholder="Enter password" style="margin-bottom:10px; height: 20px;" /&gt;<br />&#160; &#160;
-            &lt;/div&gt<br/>&#160; &#160;
-
-            &lt;div id="option" style="display:flex, justify-content:space-between; align-items:center;<br/>&#160; &#160; margin-bottom:10px"&gt;<br/>&#160; &#160; &#160;
-            &lt;div id="checkbox"&gt;<br/>&#160; &#160; &#160; &#160;
-            &lt;input type="checkbox" style="margin-bottom:10px; height: 20px;" &gt;<br/>&#160; &#160; &#160; &#160;
-            &lt;label style="margin-bottom:10px; height: 20px;" name="" &gt; Remember me &lt;/label&gt;<br/>&#160; &#160; &#160;
-            &lt;/div&gt;<br/>&#160; &#160; &#160;
-            &lt;a href="#" style="color:{bgc};" &gt; Forgot password? &lt;/a&gt; <br/>&#160; &#160;
-            &lt;/div&gt;<br/> &#160;&#160;
-
-            &lt;button type="submit" style="background-color:{bgc}; color: {textColor}; width:300px; height:30px; border: none" &gt;&lt;/button&gt;<br>&#160; &#160;
-            &lt;p&gt;Not a member?&lt;a href="#" style="color:{bgc}&gt;  Register&lt;/a&gt;&lt;/p&gt;<br>&#160;
-            &lt;/form&gt;<br />
-            &lt;/div&gt;
-        </p>
-        <h2>Svelte</h2>
+        <h2>Code Sources</h2>
         <p>
             &lt;div id="modal" &gt;<br />&#160;
             &lt;h2 id="titre" &gt; Sign in &lt;/h2&gt; <br />&#160;

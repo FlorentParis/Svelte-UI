@@ -16,17 +16,7 @@
         </select>
     </div>
     <div id="code-sources">
-        <h2>Html</h2>
-        <p>
-            &lt;label&gt; Mon select &lt;label&gt;<br/>
-            &lt;select style="border: none; background-color: {bgc}; color: {textColor};
-            font-size: {size}; border-radius: {borderRadius}; border:{border}"&gt;  <br />&#160;
-            &lt;option value="value1"&gt; Value 1 &lt;/option&gt;<br />&#160;
-            &lt;option value="value2"&gt; Value 2 &lt;/option&gt; <br />&#160;
-            &lt;option value="value3"&gt; Value 3 &lt;/option&gt; <br />
-            &lt;/select&gt;
-        </p>
-        <h2>Svelte</h2>
+        <h2>Code Sources</h2>
         <p>
             &lt;label&gt;Mon select&lt;/label&gt; <br />
             &lt;select&gt;<br />&#160;
@@ -38,7 +28,7 @@
             &lt;style&gt; <br /> select &#123; <br />&#160; border: {border}; <br />&#160;
             background-color: {bgc}; <br />&#160; color: {textColor}; <br />&#160;
             font-size: {size};
-            <br />&#160; border-radius: {borderRadius}; <br />&#160; padding: 4px 15px
+            <br />&#160; border-radius: {borderRadius}; <br />&#160; padding: 4px 15px;
             <br />margin-top: 5px; <br />&#160;width: 200px; <br />&#160;
             &#125;
             <br />&lt;/style&gt;

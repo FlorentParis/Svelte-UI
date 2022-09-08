@@ -27,20 +27,7 @@
       </nav>
     </div>
     <div id="code-sources">
-      <h2>Html</h2>
-      <p>
-        &lt;nav style="display: flex; justify-content: center; align-items: center; background-color: {bgc}; height: {navHeight}; width: 100%"&gt; <br />
-        &#160; &lt;div style="display: flex; align-items: center; justify-content: space-between; height: 100%; width: 100%; max-width: 1920px; padding: 0 40px;"&gt; <br />
-        &#160; &#160; &lt;img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Android_O_Preview_Logo.png"; alt="Logo"; style="height: {imgHeight}"&gt; <br />
-        &#160; &#160; &lt;ul style="display: flex; list-style: none; gap: 40px; font-size: {fontSize}; font-family: {fontFamily}"&gt; <br />
-        &#160; &#160; &#160; &lt;li&gt; &lt;a href="Page1" style="color: {textColor}"&gt;Lien 1&lt;/a&gt; &lt;/li&gt; <br />
-        &#160; &#160; &#160; &lt;li&gt; &lt;a href="Page2" style="color: {textColor}"&gt;Lien 2&lt;/a&gt; &lt;/li&gt; <br />
-        &#160; &#160; &#160; &lt;li&gt; &lt;a href="Page3" style="color: {textColor}"&gt;Lien 3&lt;/a&gt; &lt;/li&gt; <br />
-        &#160; &#160; &lt;/ul&gt; <br />
-        &#160; &lt;/div&gt; <br />
-        &lt;/nav&gt;
-      </p>
-      <h2>Svelte</h2>
+        <h2>Code Sources</h2>
       <p>
         &lt;nav&gt; <br />
         &#160; &lt;div&gt; <br />
