@@ -14,6 +14,7 @@ import Tables from "./pages/PageComponents/components/Tables.svelte";
 import Notifications from "./pages/PageComponents/components/Notifications.svelte";
 import Modals from "./pages/PageComponents/components/Modals.svelte";
 import Pagination from "./pages/PageComponents/components/Pagination.svelte";
+import Carousel from "./pages/PageComponents/components/Carousel.svelte";
 
 export let url = "";
 
@@ -36,6 +37,7 @@ export let url = "";
     <Route path="component-notifications" component={Notifications} />
     <Route path="component-modals" component={Modals} />
     <Route path="component-pagination" component={Pagination} />
+    <Route path="component-carousel" component={Carousel} />
   </Router>
 </div>
 
