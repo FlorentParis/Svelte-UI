@@ -14,6 +14,7 @@ import Card from "./Card.svelte";
     <Card title="Notifications" url="component-notifications" img="https://tailwindui.com/img/category-thumbnails/application-ui/notifications.png" />
     <Card title="Modals" url="component-modals" img="https://tailwindui.com/img/category-thumbnails/application-ui/modals.png" />
     <Card title="Pagination" url="component-pagination" img="https://tailwindui.com/img/category-thumbnails/application-ui/pagination.png" />
+    <Card title="Carousel" url="component-carousel" img="" />
 </div>
 
 <style>
